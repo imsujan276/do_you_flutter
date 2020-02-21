@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import './ui/pages/home.dart';
+import 'ui/pages/add.dart';
 
 /* 
 Please complete the tasks listed in TODOs in different files
@@ -28,6 +29,7 @@ class IRememberApp extends StatelessWidget {
       theme: ThemeData(primaryColor: Colors.deepOrange),
       routes: {
         "/": (_) => HomePage(),
+        "/addPage":(context)=>AddPage()
       },
     );
   }
